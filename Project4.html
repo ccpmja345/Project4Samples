@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    //Step 1: Create an array of HTML colors
+    var colors = ["red", "blue", "green", "yellow", "white", "black", "purple", "orange", "brown", "grey"];
+
+    //Step 2: Use a random number generator to pick one of the above colors.
+    //Hint: This will generate a random number between 0 and 9:
+    //i = Math.floor((Math.random() * 10));
+    var i = Math.floor((Math.random() * 10));
+
+    //Select the i-th element from the array in Step 1--this is the "Computer choice"
+    alert(colors[i]);
+
+    var userChoice = prompt("Choose one of the following colors\n red, blue, green, yellow, white, black, purple, orange, brown, gray", "");
+
+    alert(userChoice);
+
+    var computerChoice = prompt("Choose one of the following colors\n red, blue, green, yellow, white, black, purple, orange, brown, gray", "");
+
+    alert(computerChoice);
+
+    //Step 3: Prompt the user for a color choice (i.e. like in the assignment document
+    //Step 4: Compare the "User choice" in Step 3 to the "Computer choice" from Step 2
+    //Step 5: Create an IF statement:
+
+      if (userChoice == computerChoice) {
+          //"User choice" == "Computer choice"
+
+      }
+      //else
+        //"User choice" is alphabetically < "Computer choice"
+        //"User choice" is alphabetically > "Computer choice"
+
+    else if (computerChoice == userChoice) {
+           //"Computer choice" == "User choice"
+      }
+    //The user might have entered a color that doesn't exist in the array
+
+
+    //Step 6: Alert the user of success or failure.  Change background color IF success.
+
+
+
+
+
+    //    alert(colors[0]);
+ //   alert(colors[4]);
+  //  alert(colors[9]);
+
+
+
+</script>
+</body>
+</html>
+
